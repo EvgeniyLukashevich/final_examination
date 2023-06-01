@@ -23,9 +23,7 @@ sudo dpkg -i mysql-apt-config_0.8.25-1_all.deb (установил из архи
 Историю команд выложил выше: с пункта 1 по пункт 4  
 
 ## TASK 6.  
-![image](https://github.com/EvgeniyLukashevich/final_examination/assets/108574612/5909524a-4754-4565-a65e-cc3965fe0213)  
-
-
+![image](https://github.com/EvgeniyLukashevich/final_examination/assets/108574612/a6f542db-e924-4771-9d47-1aeecb89c453)
 
 
 
