@@ -21,7 +21,7 @@ public class DataSecond implements BaseData {
                     DELIMITER + animal.getBirthday() +
                     DELIMITER + animal.getCommands() + "\n");
         } catch (IOException e) {
-            throw new IOException("Error writing data to file: " + filePath);
+            throw new IOException("Произошла ошибка записи данных в файл " + filePath);
         }
     }
 
@@ -32,7 +32,7 @@ public class DataSecond implements BaseData {
             File dir = new File(DATA_PATH + "/" + subtype);
             File[] files = dir.listFiles();
             if (files == null) {
-                throw new IOException("Error reading files from directory: " + dir.getPath());
+                throw new IOException("Произошла ошибка чтения данных из директории: " + dir.getPath());
             }
 
             for (File file : files) {
@@ -45,7 +45,7 @@ public class DataSecond implements BaseData {
                         animalList.add(animal);
                     }
                 } catch (Exception e) {
-                    throw new IOException("Error reading data from file: " + file.getName(), e);
+                    throw new IOException("Произошла ошибка чтения данных из директории: " + file.getName(), e);
                 }
             }
         }
